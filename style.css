@@ -96,6 +96,14 @@ body {
   color: var(--Grey900);
 }
 
+/* for user who prefer reduced motion  */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 /* mobile */
 @media (max-width: 375px) {
   .card {
